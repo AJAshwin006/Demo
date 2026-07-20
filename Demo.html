@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Missing Person Tracking</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Missing Person Tracking</h1>
+
+<form action="/report" method="POST" enctype="multipart/form-data">
+
+<input type="text" name="name" placeholder="Missing Person Name" required>
+
+<input type="number" name="age" placeholder="Age" required>
+
+<input type="text" name="location" placeholder="Last Seen Location" required>
+
+<input type="tel" name="phone" placeholder="Contact Number" required>
+
+<input type="file" name="photo" required>
+
+<button type="submit">Submit Report</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
